@@ -21,17 +21,52 @@ address {
   font-style: normal;
 }
 
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .container {
-  width: 317px;
+  min-width: 320px;
+  max-width: 1361px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
   outline: 1px solid red;
 }
-@media screen and (min-width: 1161px) {
+@media screen and (min-width: 1361px) {
   .container {
-    width: 1161px;
+    width: 1361px;
   }
+}
+
+button {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 37px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
+  background-color: #E43071;
+  border-radius: 38.5px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.title {
+  color: #E43071;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
 }
 
 .header {
@@ -39,7 +74,7 @@ address {
   padding-bottom: 16px;
   background: #E43071;
 }
-@media screen and (min-width: 1161px) {
+@media screen and (min-width: 1361px) {
   .header {
     padding-top: 26px;
     padding-bottom: 25px;
@@ -50,7 +85,7 @@ address {
   align-items: center;
 }
 .header__logo {
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
   font-family: Poppins;
   font-size: 21.818px;
@@ -59,7 +94,7 @@ address {
   line-height: 109.5%;
   margin-right: auto;
 }
-@media screen and (min-width: 1161px) {
+@media screen and (min-width: 1361px) {
   .header__logo {
     font-size: 40px;
   }
@@ -70,7 +105,7 @@ address {
 .header__nav {
   display: none;
 }
-@media screen and (min-width: 1161px) {
+@media screen and (min-width: 1361px) {
   .header__nav {
     display: block;
   }
@@ -96,7 +131,7 @@ address {
   background-color: transparent;
   border: none;
 }
-@media screen and (min-width: 1161px) {
+@media screen and (min-width: 1361px) {
   .header__burger {
     display: none;
   }
@@ -125,8 +160,24 @@ address {
   border: none;
   margin-left: 37px;
 }
-@media screen and (min-width: 1161px) {
+@media screen and (min-width: 1361px) {
   .header__login {
     display: block;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+.hero {
+  padding-top: 103px;
+  padding-bottom: 166px;
+  background-image: url(../../img/mobile/hero-mobile@1x);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero__title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 23px;
+}

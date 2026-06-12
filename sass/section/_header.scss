@@ -1,8 +1,10 @@
+@use "../base/var" as *;
+
 .header{
     padding-top: 20px;
     padding-bottom: 16px;
-    background: #E43071;
-    @media screen and (min-width:1161px) {
+    background: $accent-color;
+    @media screen and (min-width:1361px) {
         padding-top: 26px;
         padding-bottom: 25px;
     }
@@ -13,7 +15,7 @@
 }
 
     &__logo{
-        color: #FFFFFF;
+        color: $second-accent-color;
 text-align: center;
 font-family: Poppins;
 font-size: 21.818px;
@@ -22,7 +24,7 @@ font-weight: 800;
 line-height: 109.5%;
 margin-right: auto;
 
-@media screen and (min-width:1161px) {
+@media screen and (min-width:1361px) {
         font-size: 40px;
         // margin-right: 172px;
     }
@@ -33,7 +35,7 @@ margin-right: auto;
 
 &__nav{
     display: none;
-    @media screen and (min-width:1161px) {
+    @media screen and (min-width:1361px) {
         display: block;
     }
 }
@@ -62,7 +64,7 @@ line-height: 109.5%;
 &__burger{
     background-color: transparent;
     border: none;
-    @media screen and (min-width:1161px) {
+    @media screen and (min-width:1361px) {
         display: none;
     }
 }
@@ -93,7 +95,7 @@ border-radius: 200px;
 background: #FFF;
 border: none;
 margin-left: 37px;
-@media screen and (min-width:1161px) {
+@media screen and (min-width:1361px) {
     display: block;
 }
 }

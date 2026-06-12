@@ -1,0 +1,9 @@
+@use "../base/var" as *;
+
+.title{
+  color: $accent-color;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+  
+}
